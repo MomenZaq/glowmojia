@@ -3,12 +3,174 @@
 
     <item
         is-multidex="false"
-        jar="/Users/patrick/Desktop/glowmojia/glowmoji/build/intermediates/bundles/default/classes.jar"
+        jar="C:\Users\Momen\.android\build-cache\dd4bc635874a97c6a7a2bbad8d523b1cd7e2ada6\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="0177c46705c9216c3102d0a0332bb8193e7847a7">
-        <dex dex="/Users/patrick/Desktop/glowmojia/app/build/intermediates/pre-dexed/debug/classes_638c8e566cbec47f6bc84ddef98089042042b657.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_65928e6a88b594ab4de1c0ef471e569d49cedfde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_a753e896c94434b5788545029608c99c998c77a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\b779df82bef4de1b1c53393021e495306879fe9c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_3e78c1cbd2577151e551ada48d1a25a024681014.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\glowmojia-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1929771759c7347d95396b6ac8edf7f14eb9cb3">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ac992b8ae0cb6107bda656e5ff5c3a2d5f63a8e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\d8c789008b086c9b104bea8e43bcc5904136c7ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_28f823dc4a2931949a147f31851a8b3df793d9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\326d438f1cf2a71074181344d0e8dd1041648204\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_becdfcc9c13f37e0369aaaf906eba5ea4540924b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\3dde1f613307bf0b95fc9d279d39f7d62ffca3d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_4700f300ca56d09fa6256ddd55683df01ceb6d0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\0bc03344a85d31b89f923d7362b3926412e43368\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_5872fdb16b699bd31fa9d636a80d1b207df6b2bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\416c74d023d638517188bbc3b73faec4be5722c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="178a142a25abea83b5bbb8c2660e6fb6c1ac7eb1">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_3d63d85604cd3755a9f90fdc976b433e16c4f041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\b72d76133a5f44e488868e6670ceaf606f41979f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_aea720d2da63ae2496c029b826ef5b7e9feed110.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\987fcf1d25107b43a7f8db57e94e46c6b8f831b8\output\jars\libs\sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81a6458c5c716acc4f9fc4510b548c3bbafc297e">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\sdk_50503a92732131455aa9f6ab7d161cd2d671013c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\91a53242d96b3c41636d5aaec4a4bf2acf82f4cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_4665ab73a6f9b4a1d5d3834277101dd0a3032ebc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\8b701ab8345dd4fab7838cdd5e06e075a1a6f3bd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_0fe43fd0cfd54f405b3b72366fdfe034706ef242.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\c38764aaf586805f32c8e9578add0d736bff2c1d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_12cc4bc7f8cd6e70ff0a964cb705c87c42a79c7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\5a1b991560115990600f811e43644230cf26d6e5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_e67573de502ebf54281997fede0031e0f9ba1eda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\gson-2.7_b4d0d789e5e8d9719d9e529d5eff9625ed1c4264.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\glowmojia-master\glowmoji\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d2770ba0c0443a755cfcc58d84ec85a5ba8759d8">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_635c09ac98af331f7cf0c6e78041c66d6a34c6a0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\glowmojia-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_db27da69d874007593885ab3306c7abd254fb573\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Momen\.android\build-cache\987fcf1d25107b43a7f8db57e94e46c6b8f831b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b91efcbf95b0ea905166e384830bfa17f5e110c">
+        <dex dex="C:\glowmojia-master\app\build\intermediates\pre-dexed\debug\classes_da44c9bbc6fa7702e11152a19382268533d8a1ec.jar" />
     </item>
 
 </items>

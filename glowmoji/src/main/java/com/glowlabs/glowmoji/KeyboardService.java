@@ -70,8 +70,6 @@ import java.util.UUID;
  */
 
 
-
-
 public class KeyboardService extends InputMethodService {
     private static final String TAG = "KeyboardService";
     private final static String SERVICE_NAME = "com.glowlabs.glowmoji.KeyboardService";
@@ -229,15 +227,15 @@ public class KeyboardService extends InputMethodService {
                 icic = new InputContentInfoCompat(contentUri, new ClipDescription(description, new String[]{stickerData.mime, MIME_TYPE_GIF}), Uri.parse(stickerData.url));
             }
             final InputContentInfoCompat inputContentInfoCompat = icic;
-            if ("com.facebook.orca".equals(getAppForShare(stickerData).packageName)) {
-                if (!stickerToShare(stickerData)) {
-                    Toast.makeText(this, "Application does not support stickers", Toast.LENGTH_SHORT).show();
-                }
-            } else {
-                InputConnectionCompat.commitContent(getCurrentInputConnection(), getCurrentInputEditorInfo(), inputContentInfoCompat, flag, null);
-            }
+//            if ("com.facebook.orca".equals(getAppForShare(stickerData).packageName)) {
+//                if (!stickerToShare(stickerData)) {
+//                    Toast.makeText(this, "Application does not support stic   kers", Toast.LENGTH_SHORT).show();
+//                }
+//            } else {
+            InputConnectionCompat.commitContent(getCurrentInputConnection(), getCurrentInputEditorInfo(), inputContentInfoCompat, flag, null);
+//            }
             // events
-            Event used = new Event("_ROKO.Stickers.Used");
+            Event used = new Event("_ROKO.Stickers. Used");
             used.set("photoType", "New");
             used.set("stickerId", stickerData.objectId);
             used.set("stickerPackId", stickerData.packId);
@@ -254,7 +252,8 @@ public class KeyboardService extends InputMethodService {
             placed.set("positionInPack", position + 1);
             RokoLogger.addEvents(placed);
         } else if (!stickerToShare(stickerData)) {
-            Toast.makeText(this, "Application does not support stickers", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(this, "Application does not support stickers22", Toast.LENGTH_SHORT).show();
         }
         getStickers();
     }
@@ -293,6 +292,7 @@ public class KeyboardService extends InputMethodService {
         for (ResolveInfo act : activities) {
             ActivityInfo ai = act.activityInfo;
             //Log.d("###",""+editorInfo.packageName+" :: "+ai.applicationInfo.packageName+" | "+ai.name);
+            System.out.println("SSSSSSS: " + ai.applicationInfo.packageName);
             if (editorInfo.packageName.equalsIgnoreCase(ai.applicationInfo.packageName)) {
                 return ai;
             }
@@ -361,6 +361,7 @@ public class KeyboardService extends InputMethodService {
         }
 
         final String[] supportedMimeTypes = EditorInfoCompat.getContentMimeTypes(editorInfo);
+//        Toast.makeText(this, "size: " + supportedMimeTypes.length, Toast.LENGTH_SHORT).show();
         for (String supportedMimeType : supportedMimeTypes) {
             if (ClipDescription.compareMimeTypes(mimeType, supportedMimeType)) {
                 return true;
@@ -465,7 +466,8 @@ public class KeyboardService extends InputMethodService {
             try {
 
                 String imgType = Stickers.getMimeTypeOfFile(stickerData.file.getAbsolutePath());
-                String flType = imgType.substring(5);
+                String flType = imgType.substring(5).replace("/", "");
+                System.out.println("ZZZZZZZ: " + flType);
                 File tempFile = new File(tempDir.getPath(), "sticker_" + stickerData.objectId + "." + flType);
                 final byte[] buffer = new byte[4096];
                 InputStream resourceReader = null;
@@ -481,7 +483,7 @@ public class KeyboardService extends InputMethodService {
                         bitmap.eraseColor(Color.WHITE);
                         Canvas canvas = new Canvas(bitmap);
                         canvas.drawBitmap(BitmapFactory.decodeFile(stickerData.file.getAbsolutePath()), 0, 0, null);
-                        bitmap.compress(Bitmap.CompressFormat.JPEG, 180, dataWriter);
+                        bitmap.compress(Bitmap.CompressFormat.JPEG, 80, dataWriter);
                         imgType = "image/jpeg";
                     } else {
                         while (true) {
@@ -520,11 +522,13 @@ public class KeyboardService extends InputMethodService {
                     }
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("AAAAAAAA: " + e.getMessage());
                 shared = false;
             }
             return shared;
         }
     }
+
+
 }
 

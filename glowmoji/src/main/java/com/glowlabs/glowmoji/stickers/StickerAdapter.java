@@ -36,6 +36,11 @@ public class StickerAdapter extends RecyclerView.Adapter<StickerHolder> {
     @Override
     public void onBindViewHolder(final StickerHolder holder, final int position) {
         final StickerData sticker = stickerDataList.get(position);
+        System.out.println("ID:: "+sticker.imageId);
+        System.out.println("name:: "+sticker.packName);
+
+        System.out.println();
+
 
         try {
             Bitmap ico = BitmapFactory.decodeFile(sticker.iconKey.getPath());

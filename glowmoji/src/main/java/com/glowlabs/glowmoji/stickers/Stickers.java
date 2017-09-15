@@ -9,9 +9,9 @@ import android.util.TypedValue;
 
 import com.glowlabs.glowmoji.BuildConfig;
 import com.glowlabs.glowmoji.KeyboardService;
+import com.glowlabs.glowmoji.packs.PackData;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.glowlabs.glowmoji.packs.PackData;
 import com.rokolabs.sdk.http.Response;
 import com.rokolabs.sdk.stickers.RokoStickers;
 import com.rokolabs.sdk.tools.ThreadUtils;
@@ -156,7 +156,11 @@ public class Stickers {
                                         sd.url = srFiles.file.url;
                                         sd.imageId = srFiles.file.objectId;
                                         stickerData.add(sd);
-                                    }
+
+                                        System.out.println("ID:: "+sticker.objectId);
+                                        System.out.println("ID2:: "+ pack.objectId);
+                                        System.out.println("ID3:: "+ srFiles.file.objectId);
+                                        System.out.println("name:: "+pack.name);                                    }
                                 }
                             }
                         }
@@ -332,7 +336,10 @@ public class Stickers {
             //packData.iconOff = copyImgFile(inOff, "i" + packId + "_off");
             List<StickerData> stickerData = new ArrayList<StickerData>();
             long i = 0;
+
+
             for (String img: packList) {
+                System.out.println("ORDERIS: "+img);
                 if(PACK_ICON.equals(img)){
                     continue;
                 }
