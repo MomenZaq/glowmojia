@@ -253,7 +253,7 @@ public class KeyboardService extends InputMethodService {
             RokoLogger.addEvents(placed);
         } else if (!stickerToShare(stickerData)) {
 
-            Toast.makeText(this, "Application does not support stickers22", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Application does not support stickers", Toast.LENGTH_SHORT).show();
         }
         getStickers();
     }
